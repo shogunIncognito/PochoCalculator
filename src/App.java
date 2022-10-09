@@ -4,16 +4,18 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         int elec;
+
+        String operaciones[] = {
+            "Suma",
+            "Resta",
+            "Multiplicacion",
+            "Division",
+            "Elevado",
+            "Porcentaje"
+        };
+
         do {
             int num1 = 9823167, num2 = 9823167;
-            String operaciones[] = {
-                "Suma",
-                "Resta",
-                "Multiplicacion",
-                "Division",
-                "Elevado",
-                "Porcentaje"
-            };
 
             String resp = (String) JOptionPane.showInputDialog(null, "Seleccione la operacion a realizar", "Operaciones", JOptionPane.DEFAULT_OPTION, null, operaciones, operaciones[0]); 
             
