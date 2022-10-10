@@ -33,8 +33,7 @@ public class App {
 
             elec = confirmElec();
             
-        } while (elec != 1);
-        //1 = No, 0 = Si
+        } while (elec == JOptionPane.YES_OPTION);
     }
 
     public static void operar(int num1, int num2, String op_num, String[] operaciones) {
